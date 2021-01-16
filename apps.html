@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" href="styles.css">
+        <title>Web Dragon Designs/Apps</title>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            Web Dragon Designs 
+                            <i class='fas fa-dragon'></i> 
+                        </a>
+                    </div>  
+                    <button class="navbar-toggler btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="games.html">Games</a>
+                            <a class="nav-link" href="websites.html">Websites</a>
+                            <a class="nav-link active" href="apps.html">Apps</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div> 
+                    </div>
+                </div>
+            </nav>
+        <div>
+              <!--  Accordian component  -->
+                <div class="index">
+                    <h1 style="color: gold;">Apps</h1>
+                </div> 
+                <div class="container">
+                    <div class="accordion" id="accordionExample" >
+                        <!-- Recipe App -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Recipe Sharing App</strong>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-transparent">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="https://greatrecipeapp.herokuapp.com/" target="_blank"><img src="images/recipes.png" class="img-thumbnail" alt="recipe app"></a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h3><strong>A great Recipe App! </strong></h3><br>
+                                            <h4>Share your favourite recipes with Family and Friends.</h4>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Weather app -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <strong>Weather App</strong>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-transparent">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="https://frozen-island-51972.herokuapp.com/" target="_blank"><img src="images/weather.png" class="img-thumbnail" alt="Weather app"></a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h3><strong>Get the Weather App</strong></h3> 
+                                            <h4>Find out todays weather from accross the globe.</h4>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                          </div>
+                        </div>
+                        <!-- todo app -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <strong> Todo App </strong>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-transparent">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="https://whattodo3.herokuapp.com/" target="_blank"><img src="images/todo.png" class="img-thumbnail" alt="todo app"></a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h3><strong>A Todo App</strong></h3>
+                                            <h4>Got something to do? Todo App keeps track of your things to do.</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>   
+              </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>

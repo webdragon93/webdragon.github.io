@@ -1,0 +1,92 @@
+
+body {
+    background-image: url('images/bluedragon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: dodgerblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 4px 4px 9px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 5vh;
+    color: gold;
+    font-family:'fantasy';
+    text-shadow: 2px 2px 4px black;
+}
+
+h4 {
+    font-size: 3vh;
+    color: whitesmoke;
+    font-family:'fantasy';
+    text-shadow: 2px 2px 5px black;
+}
+
+form {
+    color: dodgerblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.index h1 {
+    font-size: 15vh;
+    color: dodgerblue;
+    font-family:'fantasy';
+    font-style: italic;
+    margin: 4%;
+    text-shadow: 4px 4px 8px black;
+}
+
+.index h2 {
+    font-size: 9vh;
+    color: gold;
+    font-family:'fantasy';
+    font-style: italic;
+    margin: 9vh;
+    text-shadow: 3px 3px 8px black;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    
+}
+
+.accordion-item {
+    background-color: rgba(32, 195, 201, 0.5);
+    
+}
+
+.accordion-button::after {
+    background-color: rgba(32, 195, 201, 0.5);
+}
+
+#button {
+    width: 50%;
+}
+
+#carousel {
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: rgba(108, 169, 221, 0.3);
+    border-radius: 3%;
+}
+
+#form {
+    color: black;
+    font-size: large;
+    text-shadow: 2px 3px 10px dodgerblue;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" href="styles.css">
+        <title>Web Dragon Designs/Games</title>
+    </head>
+    <!-- Games Page -->
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="index.html">
+                        Web Dragon Designs 
+                        <i class='fas fa-dragon'></i> 
+                    </a>
+                </div>  
+                <button class="navbar-toggler btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="games.html">Games</a>
+                        <a class="nav-link" href="websites.html">Websites</a>
+                        <a class="nav-link" href="apps.html">Apps</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div> 
+                </div>
+            </div>
+        </nav>
+        <div class="index">
+            <h1 style="color: gold;">Games</h1>
+        </div>
+        <!-- Card component -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <!-- Tetris -->
+                    <div class="card">
+                        <img src="images/tetris.png" class="card-img-top" alt="tetris game">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Tetris</h5>
+                            <p class="card-text">Retro game Tetris.<br> 
+                                Stack the falling blocks.<br>
+                                Use Q to spin blocks and ,<br>
+                                arrow keys to move the blocks.</p>
+                            <a href="https://tetris2020.herokuapp.com" target="_blank" class="btn btn-primary" id="button">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <!-- snake -->
+                    <div class="card">
+                        <img src="images/snake.png" class="card-img-top" alt="snake">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Snake</h5>
+                            <p class="card-text">Classic Game Snake.<br> 
+                                Eat the apple to grow your snake.<br>
+                                But don't hit the wall.<br>
+                                Use arrow keys to move.</p>
+                            <a href="https://snake-game-20.herokuapp.com/" target="_blank" class="btn btn-primary" id="button">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <!-- space invaders -->
+                    <div class="card">
+                        <img src="images/spaceInvader.png" class="card-img-top" alt="space invaders">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Space Invaders</h5>
+                            <p class="card-text">Shoot invading space ships <br>
+                                before they land.<br>
+                                Left and Right arrow keys to move.<br>
+                                Space bar to Shoot.</p>
+                            <a href="https://space-invaders20.herokuapp.com/" class="btn btn-primary" target="_blank" id="button"> Play </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row" style="justify-content: space-evenly;">
+                <div class="col-4">
+                    <!-- memory game -->
+                    <div class="card">
+                        <img src="images/memory.png" class="card-img-top" alt="memory game">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Memory Game</h5>
+                            <p class="card-text">Test your Memory with this<br>
+                                 Classic image matching game.<br>
+                                Click a card to choose <br>
+                                and match the pairs.</p>
+                            <a href="https://memory-game20.herokuapp.com/" class="btn btn-primary" target="_blank" id="button"> Play </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <!--- yeti game -->
+                    <div class="card">
+                        <img src="images/yeti.png" class="card-img-top" alt="yeti game">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Stop the Yeti!</h5>
+                            <p class="card-text">Yeti version of whack a mole.<br>
+                                Click on the yeti <br>
+                                to boost your score!<br>
+                                Can you stop the Yeti?</p>
+                            <a href="https://stop-the-yeti.herokuapp.com/" class="btn btn-primary" target="_blank" id="button"> Play </a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div><br>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>
